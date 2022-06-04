@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <h1 id="pavel-ushakov">Pavel Ushakov</h1>
+        <p>log9099@gmail.com<br />Discord: Pavel Ushakov (@ushakovp)</p>
+        <h1 id="summary">Summary</h1>
+        <p>Quality Assurance Engineer with experience in manual and automation testing of web-based and desktop applications:</p>
+        <ul>
+            <li>test documentation and test plan development</li>
+            <li>creating and executing manual tests</li>
+            <li>test design and test framework implementation</li>
+            <li>creating and executing automated tests for web applications in Cypress with JavaScript.</li>
+            <li>creating and maintaining API automation test scripts using Postman</li>
+        </ul>
+        <h1 id="skills-">Skills:</h1>
+        <ul>
+            <li>Knowledge of SDLC, Agile</li>
+            <li>Creating check-lists, test-cases, bug reports</li>
+            <li>
+                Tech:
+                <ul>
+                    <li>Languages: JavaScript, HTML, CSS, SQL</li>
+                    <li>Frameworks/Libraries: Cypress,Playwright</li>
+                    <li>API: Postman, SOAP UI</li>
+                    <li>DB: MySQL, PostgreSQL</li>
+                    <li>Bug Tracking &amp; Management Tools: JIRA, HP ALM</li>
+                    <li>Version control / CI: Git, Jenkins,</li>
+                    <li>OS: Windows, Android, Linux</li>
+                </ul>
+            </li>
+        </ul>
+        <h1 id="code-example">Code example</h1>
+        <h2 id="students-final-grade">Students final grade</h2>
+        <p>
+            Create a function finalGrade, which calculates the final grade of a student depending on two parameters: a grade for the exam and a number of
+            completed projects.
+        </p>
+        <p>This function should take two arguments: exam - grade for exam (from 0 to 100); projects - number of completed projects (from 0 and above);</p>
+        <p>This function should return a number (final grade). There are four types of final grades:</p>
+        <pre><code><span class="hljs-number">100</span>, <span class="hljs-keyword">if</span> <span class="hljs-keyword">a</span> grade <span class="hljs-keyword">for</span> <span class="hljs-keyword">the</span> exam is more than <span class="hljs-number">90</span> <span class="hljs-keyword">or</span> <span class="hljs-keyword">if</span> <span class="hljs-keyword">a</span> <span class="hljs-built_in">number</span> <span class="hljs-keyword">of</span> completed projects more than <span class="hljs-number">10.</span>
+<span class="hljs-number">90</span>, <span class="hljs-keyword">if</span> <span class="hljs-keyword">a</span> grade <span class="hljs-keyword">for</span> <span class="hljs-keyword">the</span> exam is more than <span class="hljs-number">75</span> <span class="hljs-keyword">and</span> <span class="hljs-keyword">if</span> <span class="hljs-keyword">a</span> <span class="hljs-built_in">number</span> <span class="hljs-keyword">of</span> completed projects is minimum <span class="hljs-number">5.</span>
+<span class="hljs-number">75</span>, <span class="hljs-keyword">if</span> <span class="hljs-keyword">a</span> grade <span class="hljs-keyword">for</span> <span class="hljs-keyword">the</span> exam is more than <span class="hljs-number">50</span> <span class="hljs-keyword">and</span> <span class="hljs-keyword">if</span> <span class="hljs-keyword">a</span> <span class="hljs-built_in">number</span> <span class="hljs-keyword">of</span> completed projects is minimum <span class="hljs-number">2.</span>
+<span class="hljs-number">0</span>, <span class="hljs-keyword">in</span> other cases
+</code></pre>
+        <p>Solution</p>
+        <pre><code>function finalGrade(exam, projects) {
+    <span class="hljs-keyword">if</span>(exam &gt; <span class="hljs-number">90</span> || projects &gt; <span class="hljs-number">10</span>) <span class="hljs-keyword">return</span> <span class="hljs-number">100</span>;
+    <span class="hljs-keyword">if</span>(exam &gt; <span class="hljs-number">75</span> &amp; projects &gt;= <span class="hljs-number">5</span>) <span class="hljs-keyword">return</span> <span class="hljs-number">90</span>;
+    <span class="hljs-keyword">if</span>(exam &gt; <span class="hljs-number">50</span> &amp; projects &gt;= <span class="hljs-number">2</span>) <span class="hljs-keyword">return</span> <span class="hljs-number">75</span>;
+    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+}
+</code></pre>
+        <h1 id="experience">Experience</h1>
+        <p><strong>QA Engineer</strong><br />Performance lab<br /><em>aug 2020 - Present</em></p>
+        <h1 id="education">Education</h1>
+        <p>Izhevsk State Technical University<br />Bachelor of Computer Science<br /><em>Feb 2022</em></p>
+        <h1 id="languages">Languages</h1>
+        <p>Russian - Native speaker<br />English - B2 Upper Intermediate</p>
+    </body>
+</html>
