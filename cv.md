@@ -23,7 +23,7 @@ Quality Assurance Engineer with experience in manual and automation testing of w
     -   API: Postman, SOAP UI
     -   DB: MySQL, PostgreSQL
     -   Bug Tracking & Management Tools: JIRA, HP ALM
-    -   Version control / CI: Git, Jenkins,
+    -   Version control / CI: Git, Jenkins
     -   OS: Windows, Android, Linux
 
 # Code example
