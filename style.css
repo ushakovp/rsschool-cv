@@ -1,6 +1,5 @@
 * {
     font-family: 'EB Garamond', serif;
-    font-size: 16px;
 }
 body {
     display: flex;
@@ -52,4 +51,5 @@ body {
     align-items: center;
     justify-content: space-around;
     list-style-type: none;
+    line-height: 50px;
 }
