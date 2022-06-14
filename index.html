@@ -1,1 +1,119 @@
-<h1>CV</h1>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400&family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>CV</title>
+    </head>
+    <body>
+        <div class="container">
+        <header class="header">
+            <article class="description">
+                <h1 class="header">Pavel Ushakov</h1>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="JS logo" class="avatar">
+                <div class="contacts">E-mail: log9099@gmail.com <br> Discord: Pavel Ushakov (@ushakovp)</div>
+            </article>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#Summary">Summary</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Code">Code example</a></li>
+                    <li><a href="#Experience">Experience</a></li>
+                    <li><a href="#Education">Education</a></li>
+                    <li><a href="#Languages">Languages</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <article>
+                <h2 class="header" id="Summary">Summary</h2 class="header">
+                <p>Quality Assurance Engineer with experience in manual and automation testing of web-based and desktop applications:</p>
+                <ul>
+                    <li>test documentation and test plan development</li>
+                    <li>creating and executing manual tests</li>
+                    <li>test design and test framework implementation</li>
+                    <li>creating and executing automated tests for web applications in Cypress with JavaScript.</li>
+                    <li>creating and maintaining API automation test scripts using Postman</li>
+                </ul>
+            </article>
+            <article>
+                <h2 class="header" id="Skills">Skills:</h2 class="header">
+                <ul>
+                    <li>Knowledge of SDLC, Agile</li>
+                    <li>Creating check-lists, test-cases, bug reports</li>
+                    <li>
+                        Tech:
+                        <ul>
+                            <li>Languages: JavaScript, HTML, CSS, SQL</li>
+                            <li>Frameworks/Libraries: Cypress,Playwright</li>
+                            <li>API: Postman, SOAP UI</li>
+                            <li>DB: MySQL, PostgreSQL</li>
+                            <li>Bug Tracking & Management Tools: JIRA, HP ALM</li>
+                            <li>Version control / CI: Git, Jenkins</li>
+                            <li>OS: Windows, Android, Linux</li>
+                        </ul>
+                    </li>
+                </ul>
+            </article>
+            <article>
+                <h2 class="header" id="Code">Code example</h2 class="header">
+                <h3>Students final grade</h3>
+                <p>
+                    Create a function finalGrade, which calculates the final grade of a student depending on two parameters: a grade for the exam and a number
+                    of completed projects.
+                </p>
+                <p>
+                    This function should take two arguments: exam - grade for exam (from 0 to 100); projects - number of completed projects (from 0 and above);
+                </p>
+                <p>This function should return a number (final grade). There are four types of final grades:</p>
+                <pre>
+                    <code>
+                        100, if a grade for the exam is more than 90 or if a number of completed projects more than 10. <br />
+                        90, if a grade for the exam is more than 75 and if a number of completed projects is minimum 5. <br />
+                        75, if a grade for the exam is more than 50 and if a number of completed projects is minimum 2. <br />
+                        0, in other cases
+                    </code>
+                </pre>
+                <p>Solution</p>
+                <pre>
+<code class="code_highlight"> 
+    function finalGrade(exam, projects) { <br />
+        if(exam > 90 || projects > 10) return 100; <br />
+        if(exam > 75 & projects >= 5) return 90; <br />
+        if(exam > 50 & projects >= 2) return 75; <br />
+        return 0;<br> 
+    }
+</code>
+            </pre>
+            </article>
+            <article>
+                <h2 class="header" id="Experience">Experience</h2 class="header">
+                <p>QA Engineer</p>
+                <p>Performance lab </p>
+                <p>aug 2020 - Present</p>
+            </article>
+            <article>
+                <h2 class="header" id="Education">Education</h2 class="header">
+                <p>Izhevsk State Technical University</p>
+                <p>Bachelor of Computer Science</p>
+                <p>Feb 2022</p>
+            </article>
+            <article>
+                <h2 class="header" id="Languages">Languages</h2 class="header">
+                <ol>
+                    <li>Russian - Native speaker  </li>
+                    <li>English - B2 Upper Intermediate</li>
+                </ol>
+            </article>
+        </main>
+        <footer class="footer">
+            <p>Author: <a href="https://github.com/ushakovp/">https://github.com/ushakovp/</a>, 2022, for <img src="https://rs.school/images/rs_school_js.svg" alt="Logo"> <a href="https://rs.school/js-stage0/"> rs.school/js-stage0</a></p>
+        </footer>
+    </div>
+    </body>
+</html>
