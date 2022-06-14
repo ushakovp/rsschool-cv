@@ -53,3 +53,19 @@ body {
     list-style-type: none;
     line-height: 50px;
 }
+
+#projects li{
+    list-style-type: none;
+}
+
+#projects a{
+    width: 300px;
+    transition: .3s;
+    color: black;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+#projects a:hover{
+    color: crimson;
+}
